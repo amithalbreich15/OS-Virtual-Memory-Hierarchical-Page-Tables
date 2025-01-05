@@ -7,8 +7,6 @@ In the given task, you're required to design and implement a virtual memory inte
 The project requires you to implement the functions in `VirtualMemory.h`, using the physical memory API from `PhysicalMemory.h` and following the constraints mentioned (like avoiding dynamic memory allocation and global variables). You will simulate address translations, swapping in and out pages from physical memory, and managing hierarchical page tables to handle memory efficiently. The implementation needs to support different memory sizes and tree depths, with the address translation involving multiple steps based on the page tables' depth.
 
 You'll be tasked with ensuring that pages are loaded, swapped in, or evicted correctly when needed, according to the defined rules, such as finding unused frames or handling page faults. The solution must be implemented with a focus on memory efficiency and correctness, and the project will be tested with varying memory configurations and tree depths.
-
-### Key Components:
 1. **Virtual Memory System**: Mapping virtual addresses to physical memory using page tables.
 2. **Hierarchical Page Tables**: A tree structure that reduces memory consumption by dividing the address space into layers.
 3. **Physical Memory API**: A simulated physical memory API to interact with the physical memory, including reading and writing data.
@@ -22,4 +20,4 @@ You'll be tasked with ensuring that pages are loaded, swapped in, or evicted cor
 - Create a Makefile to build the library `libVirtualMemory.a`.
 - Submit the source files, a README, and the Makefile.
 
-By completing this project, you'll gain hands-on experience with memory management techniques such as paging, page fault handling, and memory efficiency in the context of virtual memory.
+Skills gained: Hands-on experience with memory management techniques such as paging, page fault handling, and memory efficiency in the context of virtual memory.
